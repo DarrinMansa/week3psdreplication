@@ -1,0 +1,63 @@
+ /* Cascading Style Sheets */
+
+div.left, div.right, div.right ul, div.right ul li {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+div.right {
+	padding-right: 50px;
+	text-align: right;
+	width: 65%;
+}
+
+div.left {
+	padding-left: 50px;
+	width: 35%;
+}
+
+div.left a {
+	color: #444;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+
+
+section.intro {
+	text-align: center;
+	padding: 150px 300px;
+	background-image: url("../img/waves.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-weight: bolder;
+
+	/*height: 500px;*/
+}
+
+section {
+	padding-top: 100px;
+	text-align: center;
+}
+
+section > div {
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+}
+
+div.icon {
+	box-sizing: border-box;
+	background-color: #3696d8;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin: 0 auto; 
+	padding-top: 30px;
+	border-radius: 50%;
+}
+
+div.icon i {
+	font-size: 2.5em;
+}
